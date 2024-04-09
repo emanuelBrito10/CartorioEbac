@@ -125,7 +125,9 @@ int main() //DEFININDO VARIAVEIS
 		
 		printf ("\t2 - Consultar os nomes\n");
 		
-		printf ("\t3 - Deletar nomes\n\n");
+		printf ("\t3 - Deletar nomes\n");
+		
+		printf ("\t4 - sair do sistema\n");
 		
 		printf ("opção: ");	//FIM DO MENU
 		
@@ -145,6 +147,11 @@ int main() //DEFININDO VARIAVEIS
 			
 			case 3:
 			deletar(); //chamada de função de deletar
+			break;
+			
+			case 4:
+			printf("obrigado por utilizar o sistema\n ");
+			return 0;	
 			break;
 			
 			default:
